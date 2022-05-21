@@ -1,0 +1,49 @@
+
+/*
+    FLEX WRAP AND NOW-WRAP
+*/
+
+.box-pai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+
+
+
+/*
+    FLEX WRAP AND NOW-WRAP
+*/
+
+
+/*
+    ESTILIZANDO OS FILHOS
+*/
+.box{
+
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}   
+
+.box-child-1{
+    background-color: blue;
+}
+
+.box-child-2{
+    background-color: rgb(15, 147, 50);
+}
+
+.box-child-3{
+    background-color: rgb(238, 255, 0);
+}
+
+.box-child-4{
+    background-color: rgb(255, 0, 140);
+}
+
+/*
+    ESTILIZANDO OS FILHOS
+*/
